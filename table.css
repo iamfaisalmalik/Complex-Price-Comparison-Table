@@ -1,14 +1,16 @@
-
 :root {
+    --color: lightblue;
     --border: black;
 }
 
 body {
+    background-color: smokewhite;
+    font-family: Arial;
 }
 
 h1 {
     text-align: center;
-    
+    color: blue;
 }
 
 table {
@@ -35,11 +37,14 @@ td {
 }
 
 tr:nth-child(even) {
+    background-color:antiquewhite;
 }
 
 tr:hover {
+    background-color: lightgray;
 }
 
 tfoot {
+    background-color: lightblue;
     font-weight: bold;
 }
